@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1300;1400;1500;1600;1700;1800;1900 & mostrar=intercambiar');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#proyectos {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cohete {
+    height: 380px;
+}
+.cohete:hover{
+    height: 400px;
+}
+
+.espacial {
+    height: 430px;
+}
+
+#inicio p {
+    color: white;
+    border: 1px solid white;
+    border-radius: 44px;
+    width: 410px;
+    font-weight: 600px;
+    font-size: 18px;
+    margin: 17px;
+
+}
+
+.proyectitos {
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 180px;
+}
+
+nav .nav-link {
+    color: #282828;
+
+}
+
+nav .active {
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #e2000e;
+}
+
+p {
+    color: #6a6a6a;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #370a6d;
+    cursor: pointer;
+}
+
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 60px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.link-rojo {
+    color: #E20000;
+    text-decoration: none;
+}
+
+.whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.whatsapp a {
+    color: white;
+}
+
+#contacto footer, #inicio footer {
+    color: white;
+}
+
+#contacto footer, #inicio footer a {
+    color: white;
+}
+
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#contacto footer .fa-github, #inicio footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+.parrafo {
+    width: 400px;
+}
+.foto {
+    border-radius: 148px;
+    height: 190px;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+#proyectos footer {
+    color: #ff4a49;
+}
+
+#proyectos footer a {
+    color: #ff4a49;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: #ff4a49;
+}
+
+#proyectos .whatsapp a {
+    color: white;
+}
+
+.proyecto {
+    background-color: white;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(184, 37, 20, 1);
+    padding: 14px;
+}
+
+.proyecto p {
+    font-size: 14px;
+    font-weight: 400;
+    height: 140px;
+}
+
+.proyecto img {
+    height: 212px;
+
+}
+
+@media (max-width: 750px) {
+    #contacto, #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #proyectos {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #inicio p {
+        color: #ff4a49;
+        border: 1px solid #ff4a49;
+        width: 346px;
+        font-weight: 600px;
+        font-size: 18px;
+        
+    }
+    
+}
