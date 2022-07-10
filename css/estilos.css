@@ -134,7 +134,7 @@ section #personal, section #experiencia, section #formación {
     background-color: white;
 }
 #Stack {
-    background-color: #bd1010e7;
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
 }
 
 #Stack .tecnologias {
@@ -208,10 +208,40 @@ h4 {
 #formación h2{
     font-size: 24px;
 }
-#varios .logos fa-solid fa-language{
-    height: 100px;
-    display: block;
+#varios {
+    background-color: #eee;
+}
+#varios .caja{
+    border-radius: 27px;
+}
+#varios i{
+    font-size: 94px;
+    border-radius: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    padding: 34px 0px;
+    
+}
+#varios .logos{
+    background-color: rebeccapurple;
+    border-radius: 19px;
+}
+#varios .idioma, .hobbie {
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
     margin: auto;
+    padding: 14px;
+}
+#varios ul {
+    padding: 0px;
+    font-size: 16px;
+    color: #282828;
+    list-style-type: none;
+}
+#varios h2{
+    font-size: 24px;
+    font-weight: 400px;
 }
 
 #contacto footer,
@@ -255,15 +285,15 @@ h4 {
 
 }
 
-#proyectos footer {
+#proyectos footer, #sobre-mi footer {
     color: #ff4a49;
 }
 
-#proyectos footer a {
+#proyectos footer a, #sobre-mi footer a {
     color: #ff4a49;
 }
 
-#proyectos footer .fa-linkedin-in {
+#proyectos footer .fa-linkedin-in, #sobre-mi footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -276,12 +306,12 @@ h4 {
     margin: 0 8px;
 }
 
-#proyectos footer .fa-github {
+#proyectos footer .fa-github, #sobre-mi footer .fa-github {
     font-size: 30px;
     color: #ff4a49;
 }
 
-#proyectos .whatsapp a {
+#proyectos .whatsapp a, #sobre-mi .whatsapp a {
     color: white;
 }
 
@@ -293,7 +323,7 @@ h4 {
     font-size: 16px;
     font-weight: 500;
     color: white;
-    background-color: rgba(184, 37, 20, 1);
+    background:linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
     padding: 14px;
 }
 
