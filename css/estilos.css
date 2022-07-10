@@ -30,7 +30,8 @@ body {
 .cohete {
     height: 380px;
 }
-.cohete:hover{
+
+.cohete:hover {
     height: 400px;
 }
 
@@ -129,16 +130,102 @@ textarea {
 .whatsapp a {
     color: white;
 }
+section #personal, section #experiencia, section #formación {
+    background-color: white;
+}
+#Stack {
+    background-color: #bd1010e7;
+}
 
-#contacto footer, #inicio footer {
+#Stack .tecnologias {
+    background-color: white;
+    border-radius: 10px;
+    height: 178px;
+}
+
+#Stack h2 {
+    color: white;
+    font-size: 26px;
+}
+
+#Stack .tecnologias h3 {
+    font-size: 14px;
+    color: rgba(22, 15, 15, 0.5);
+    font-weight: 300px;
+    text-align: center;
+
+}
+
+#Stack .tecnologias img {
+    height: 62px;
+    display: block;
+    margin: auto;
+}
+
+#experiencia h2,
+h4 {
+    color: #370A6D;
+}
+
+#experiencia h2 {
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+#experiencia h3, #formación h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+#experiencia h4, #formación h4 {
+    font-size: 20px;
+}
+
+#experiencia h5, #formación h5 {
+    color: #6a6a6a;
+    font-size: 15px;
+}
+
+#experiencia .logos img {
+    background-color: grey;
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 125px;
+}
+
+#formación .logos img{
+    background-color: grey;
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 125px;
+}
+#formación h2,h4{
+    color: #E20000;
+}
+#formación h2{
+    font-size: 24px;
+}
+#varios .logos fa-solid fa-language{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+#contacto footer,
+#inicio footer {
     color: white;
 }
 
-#contacto footer, #inicio footer a {
+#contacto footer,
+#inicio footer a {
     color: white;
 }
 
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
+#contacto footer .fa-linkedin-in,
+#inicio footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -151,7 +238,8 @@ textarea {
     margin: 0 8px;
 }
 
-#contacto footer .fa-github, #inicio footer .fa-github {
+#contacto footer .fa-github,
+#inicio footer .fa-github {
     font-size: 30px;
     color: white;
 }
@@ -159,19 +247,13 @@ textarea {
 .parrafo {
     width: 400px;
 }
+
 .foto {
     border-radius: 148px;
     height: 190px;
     background-color: white;
 
 }
-
-
-
-
-
-
-
 
 #proyectos footer {
     color: #ff4a49;
@@ -227,7 +309,9 @@ textarea {
 }
 
 @media (max-width: 750px) {
-    #contacto, #inicio {
+
+    #contacto,
+    #inicio {
         background-image: url(../images/fondo-proyectos.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -244,7 +328,7 @@ textarea {
         width: 346px;
         font-weight: 600px;
         font-size: 18px;
-        
+
     }
-    
+
 }
