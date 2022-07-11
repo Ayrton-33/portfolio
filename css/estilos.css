@@ -358,7 +358,34 @@ h4 {
         width: 346px;
         font-weight: 600px;
         font-size: 18px;
-
     }
-
+    #inicio footer, #contacto footer {
+        color: #ff4a49;
+    }
+    
+    #inicio footer a, #contacto footer a {
+        color: #ff4a49;
+    }
+    
+    #inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in {
+        color: #ff4a49;
+        background-color: white;
+        font-size: 20px;
+        border: 0px;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        border-radius: 80px;
+        margin: 0 8px;
+    }
+    
+    #inicio footer .fa-github, #contacto footer .fa-github {
+        font-size: 30px;
+        color: #ff4a49;
+    }
+    
+    #inicio .whatsapp a, #contacto .whatsapp a {
+        color: white;
+    }
 }
