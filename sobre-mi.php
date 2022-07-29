@@ -1,3 +1,6 @@
+<?php
+$pg = "sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,33 +19,7 @@
 
 <body id="sobre-mi">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("header.php"); ?>
     </header>
 
     <main>
@@ -60,8 +37,7 @@
                 </div>
 
                 <div class="col-sm-3 col-12 offset-sm-2 mt-5 mx-auto text-center">
-                    <img src="../Portfolio/images/foto.webp" alt="Ayrton Nicolas Acevedo" title="Ayrton Nicolas Acevedo"
-                        class="foto img-fluid">
+                    <img src="../Portfolio/images/foto.webp" alt="Ayrton Nicolas Acevedo" title="Ayrton Nicolas Acevedo" class="foto img-fluid">
                 </div>
 
             </div>
@@ -312,23 +288,19 @@
     </main>
     <footer class="container mt-auto pb-2">
         <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=543512131135" target="_blank" title="Whatsapp"><i
-                    class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=543512131135" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
         <div class="row">
             <div class="col-12 col-sm-3">
-                <a href="https://github.com/Ayrton-33" target="_blank" title="https://github.com/"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ayrton-acevedo-ba5244163/" target="_blank"
-                    title="https://www.linkedin.com/in/ayrton-acevedo-ba5244163/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ayrton-33" target="_blank" title="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayrton-acevedo-ba5244163/" target="_blank" title="https://www.linkedin.com/in/ayrton-acevedo-ba5244163/"><i class="fab fa-linkedin-in"></i></a>
 
             </div>
             <div class="col-12 col-sm-3">
                 Sponsor <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank" title="DepcSuite">DepcSuite</a>
             </div>
             <div class="col-12 col-sm-3">
-                <a href="mailto:ayrton.94acevedo@gmail.com" target="_blank"
-                    title="ayrton.94acevedo@gmail.com">ayrton.94acevedo@gmail.com</a>
+                <a href="mailto:ayrton.94acevedo@gmail.com" target="_blank" title="ayrton.94acevedo@gmail.com">ayrton.94acevedo@gmail.com</a>
             </div>
 
         </div>
