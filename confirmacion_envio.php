@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../Portfolio/images/icono.png">
 </head>
 
-<body id="confirmacion_envio">
+<body id="contacto">
     <header class="container">
         <?php include_once("header.php"); ?>
     </header>
@@ -30,7 +30,7 @@
         </div>    
     </main>
 
-    <footer class="container mt-auto pb-2 pt-3">
+    <footer class="container mt-auto pb-2 pt-5">
         <div class="whatsapp">
             <a href="https://api.whatsapp.com/send?phone=543512131135" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
