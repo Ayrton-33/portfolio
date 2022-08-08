@@ -1,3 +1,6 @@
+<?php
+$pg = "proyectos";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,33 +19,7 @@
 
 <body id="proyectos" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link  py-1 px-3 px-sm-4 active" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("header.php"); ?>
     </header>
 
     <main class="container">

@@ -26,7 +26,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+#confirmacion_envio {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .cohete {
     height: 380px;
 }

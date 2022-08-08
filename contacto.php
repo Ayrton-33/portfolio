@@ -1,3 +1,41 @@
+<?php
+$pg = "contacto";
+
+
+$pg = "contacto";
+
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+
+    // Varios destinatarios
+    $para = "ayrton.94acevedo@gmail.com";
+    $titulo = 'Recibiste un mensaje desde tu Web';
+
+    // mensaje
+    $cuerpo = "
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    Mensaje: $mensaje
+    ";
+
+    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+    // Cabeceras adicionales
+    $cabeceras .= 'To: ayrton.94acevedo@gmail.com' . "\r\n";
+    $cabeceras .= 'From: contacto@nelsontarche.com.ar' . "\r\n";
+
+    // Enviarlo
+    //mail($para, $titulo, $cuerpo, $cabeceras);
+    header("Location: confirmacion_envio.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,33 +54,7 @@
 
 <body id="contacto">
     <header class="container">
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link  py-1 px-3 px-sm-4" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4 active" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("header.php"); ?>
     </header>
 
     <main class="container">
